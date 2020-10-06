@@ -1,0 +1,49 @@
+:root {
+    --color-pink: hsl(322, 100%, 66%);
+    --color-very-dark-cyan: hsl(192, 100%, 9%);
+    --color-very-pale-blue: hsl(212, 100%, 97%);
+    --color-very-pale-blue-original: hsl(207, 100%, 98%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+// ANIMATIONS
+
+@keyframes waveAnimation1 {
+    0% {
+        transform: translateX(25%);
+    }
+
+    50% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
+}
+
+@keyframes waveAnimation2 {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    50% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

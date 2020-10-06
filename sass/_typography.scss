@@ -1,0 +1,81 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.75rem;
+
+    @media only screen and (min-width: 600px) {
+        font-size: 3rem;
+    }
+
+    @media only screen and (min-width: 800px) {
+        font-size: 3.5rem;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        font-size: 4.5rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        font-size: 5.5rem;
+    }
+
+    @media only screen and (min-width: 1400px) {
+        font-size: 6rem;
+    }
+}
+
+// CLASSES
+
+.hero {
+    &__subheading {
+        font-size: 1.75rem;
+        line-height: 1.6;
+
+        @media only screen and (min-width: 800px) {
+            font-size: 2rem;
+        }
+
+        @media only screen and (min-width: 1400px) {
+            font-size: 2.25rem;
+        }
+    }
+}
+
+.cta {
+    &__heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.75rem;
+
+        @media only screen and (min-width: 600px) {
+            font-size: 3.5rem;
+        }
+
+        @media only screen and (min-width: 800px) {
+            font-size: 4rem;
+        }
+
+        @media only screen and (min-width: 1000px) {
+            font-size: 4.5rem;
+        }
+
+        @media only screen and (min-width: 1400px) {
+            font-size: 5.5rem;
+        }
+    }
+}
+
+// FOOTER
+
+.footer {
+    &__newsletter {
+        h5 {
+            // font-family: 'Poppins', sans-serif;
+            font-size: 2.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}
